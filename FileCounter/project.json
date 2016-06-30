@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "description": "Test creation of a .NET CLI Tool",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "outputName": "dotnet-fc"
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-3002702"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {}
+  }
+}
